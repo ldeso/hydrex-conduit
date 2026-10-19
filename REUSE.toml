@@ -1,0 +1,19 @@
+version = 1
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Léo de Souza"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "test/upstream/hydrex/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Hydrex"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["broadcast/**", "verification/**"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Léo de Souza"
+SPDX-License-Identifier = "MIT"
